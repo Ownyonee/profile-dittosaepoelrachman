@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Exo 2", sans-serif;
+      }
+
+      body {
+        background: linear-gradient(
+          315deg,
+          rgb(54, 12, 105) 3%,
+          rgba(60, 132, 206, 1) 38%,
+          rgb(43, 32, 113) 68%
+        );
+        animation: gradient 15s ease infinite;
+        background-size: 400% 400%;
+        background-attachment: fixed;
+        height: 100vh;
+        padding: 20px;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 0% 0%;
+        }
+        50% {
+          background-position: 100% 100%;
+        }
+        100% {
+          background-position: 0% 0%;
+        }
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(240, 248, 255); /* Warna RGB */
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: #2c3e50;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        font-size: 18px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .profile-pic {
+        display: block;
+        margin: 20px auto;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+      }
+      table {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      th {
+        background-color: #f8f8f8;
+        text-align: left;
+      }
+      .social-links {
+        text-align: center;
+      }
+      .social-links a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #2980b9;
+      }
+      .back-button {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .back-button a {
+        background-color: #2980b9;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .back-button a:hover {
+        background-color: #1f6391;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tentang Saya</h1>
+      <img src="FOTO DITTO.png" alt="Profile Picture" class="profile-pic" />
+      <p>
+        Assalammualaikum.Wr.Wb. Apakabar semua. Salam kenal ini adalah web
+        perdanaku. Web ini berisi informasi tentang kegemaranku. Semoga web ini
+        dapat menginspirasi Anda pada waktu liburan. Berikut adalah beberapa
+        informasi tentang saya:
+      </p>
+
+      <table>
+        <tr>
+          <th>Nama</th>
+          <td>Ditto Saepoel Rachman</td>
+        </tr>
+        <tr>
+          <th>Hobi</th>
+          <td>Musik, Gaming</td>
+        </tr>
+        <tr>
+          <th>Profesi</th>
+          <td>IT Support</td>
+        </tr>
+        <tr>
+          <th>Lokasi</th>
+          <td>Indonesia</td>
+        </tr>
+      </table>
+
+      <div class="back-button">
+        <a href="index.html">Kembali ke Halaman Utama</a>
+      </div>
+    </div>
+  </body>
+</html>
